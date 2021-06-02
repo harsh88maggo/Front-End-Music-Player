@@ -1,0 +1,233 @@
+/*main-body*/
+
+h1
+{
+    color: #19d555;
+    text-align: center;
+    font-style:italic;
+}
+
+h2{ 
+	margin-top: 20rem;
+    color: pink;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+p
+{
+    color: orange;
+}
+
+#body-header {
+    height: 365vh;
+    opacity: 0.8;
+    background-image: url(imgs/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1rem;
+}
+
+/*Slideshow of Trending Artsists*/
+#artist-slides{
+   height: 30%;
+   width: 75%;
+   position: absolute;
+   left:10%;
+   top: 20%;
+   box-shadow: 1px 2px  10px grey;
+   background-image: url(imgs/kar.jpg);
+   transform: translate3d(0, 0, 0);
+   animation:slider 11s infinite normal;
+}
+
+@keyframes slider
+{
+    0%{
+        background-image: url(imgs/dil.jpg);
+    }
+    35%{
+        background-image: url(imgs/rih.jpg);
+    }   
+    75%{
+        background: url(imgs/post.jpg);
+      }        
+
+    }
+}
+
+/*images margins*/
+#img1
+{    
+    margin-top: 3rem;
+    margin-left: 1rem;
+  }
+   
+
+ 
+
+#img2
+{
+    margin-top: 8rem;
+    margin-left: 0rem;
+   
+}
+#img3
+{
+    margin-top: -32.6rem;
+    margin-left: 12rem;
+    
+
+    
+}
+#img4
+{
+    margin-top: 8rem;
+    margin-left: 0rem;
+    
+
+    
+}
+#img5
+{
+    margin-top: 8rem;
+    margin-left: 0rem;
+    
+
+    
+}
+#img6
+{
+    margin-top: -12.7rem;
+    margin-left: -12rem;
+    
+
+    
+}
+#img7
+{
+    margin-top: -52.36rem;
+    margin-left: 24rem;
+    
+
+    
+}
+#img8
+{
+    margin-top: -12.78rem;
+    margin-left: 12rem;
+    
+
+    
+}
+#img9
+{
+    margin-top: 8rem;
+    margin-left: -12rem;
+
+    
+
+    
+}
+#img10
+{
+    margin-top: -12.75rem;
+    margin-left: 12rem;
+    
+
+    
+}
+#img11
+{
+    margin-top: 7.92rem;
+    margin-left: -12rem;
+    
+
+    
+}
+#img12
+{
+    margin-top: -12.78rem;
+    margin-left: 12rem;
+    
+
+    
+}
+
+/*Hover Effect*/
+#hidden {
+    display:none;
+    color: white;
+ }
+
+#hover:hover > #hidden {
+    display:block;
+    position: absolute;
+}
+
+
+/*side list*/
+.side-bar{
+    list-style:none;
+    padding: 10px;
+    margin-left: 600px;
+    margin-top: -1215px;
+}
+
+
+.side-bar .list p{
+    margin-top: -45px;
+    margin-left: 100px;
+    font-size: xx-large;
+}
+
+.side-bar h2{
+         color: pink;
+         font-style: italic;
+}
+
+
+
+.color{
+    color: pink;
+
+}
+.dimensions{
+    width: 200px;
+    height: 200px;
+    margin-left: -250px;
+    font-style: italic;
+    font-size: x-large;
+    /*display: inline;*/
+}
+
+.punk{
+  
+    padding: 10px;
+    margin-left: 650px;
+    margin-top: -240px;
+}
+.punjabi{
+    
+    padding: 10px;
+    margin-left: -265px;
+    margin-top: 200px;
+}
+.english{
+   
+    padding: 10px;
+    padding-left: 900px;
+    margin-top: -220px;
+}
+
+h3{
+    color: orange;
+}
+
+audio{
+    width: 1300px;
+    margin-top: 110px;
+    margin-left: -300px;
+    
+}
